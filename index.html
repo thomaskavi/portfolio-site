@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Thomas Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <!--FONTES-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,700&family=Montserrat&family=Open+Sans:ital,wght@1,300&family=Poppins:ital,wght@0,100;0,200;0,300;0,500;1,100;1,200;1,300;1,400;1,500;1,800&family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <!--LINK AWESOME-->
+    <script
+      src="https://kit.fontawesome.com/f441decb47.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!--HOME-->
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img src="images/logo.png" class="logo" />
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="header-text">
+          <h1>
+            I'm <span>Thomas</span><br /><span>Kavi</span> From Brazil<span
+              >.</span
+            >
+          </h1>
+          <p>Web Developer</p>
+        </div>
+      </div>
+    </div>
+    <!--ABOUT-->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="images/user.png" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>
+              Hello, my name is Thomas Kavi Bezerra. I was born and have been
+              living in Brazil since December 20, 2000. I am currently seeking
+              to break into the development market. I have a job as a
+              telecommunications technician and am also pursuing a degree in
+              systems analysis and development. I am looking for an opportunity
+              to gain more experience and to dedicate myself to continuous
+              improvement. Thank you in advance for visiting my portfolio.
+            </p>
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('experience')">
+                Experience
+              </p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li><span>HTML</span><br />HyperText Markup Language</li>
+                <li><span>CSS</span><br />Cascading Style Sheetsr</li>
+                <li><span>JavaScript</span><br />Programing Language</li>
+                <li><span>Python</span><br />Programing Language</li>
+                <li><span>Github</span><br />Code Hosting</li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li>
+                  <span>2023 - Current</span><br />Web Developer Free Lancer
+                  (Remote)
+                </li>
+                <li>
+                  <span>2020 - Current</span><br />TechZone Internet Provider
+                  (Brazil)
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li>
+                  <span>2023 - 2025</span><br />System Analisys and Development
+                  (TI) from Uniasselvi.
+                </li>
+                <li>
+                  <span>2018</span><br />Graduate (Highschool) from Escola de
+                  Referência em Ensino Médio de Itaparica.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--SERVICES-->
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Web Design</h2>
+            <p>
+              I provide comprehensive web design services, creating custom
+              websites that reflect your brand and business goals. With a focus
+              on user-friendliness and responsive design, I ensure a seamless
+              experience on all devices. I integrate SEO for improved visibility
+              and offer e-commerce solutions, CMS integration, maintenance, and
+              graphic design services.
+            </p>
+            <a href="#">learn more</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-crop"></i>
+            <h2>UI/UX Design</h2>
+            <p>
+              I offer comprehensive UX/UI design services aimed at enhancing
+              user experience and user interface. My solutions encompass user
+              research, prototyping, intuitive interface design, and usability
+              testing. I work to ensure that your digital products are engaging,
+              functional, and captivating for your target audience.
+            </p>
+            <a href="#">learn more</a>
+          </div>
+          <div>
+            <i class="fa-brands fa-app-store"></i>
+            <h2>App Design</h2>
+            <p>
+              I offer extensive app design services, with a focus on creating
+              user-friendly and aesthetically pleasing mobile applications. My
+              solutions encompass user research, wireframing, intuitive
+              interface design, and thorough testing. I strive to develop apps
+              that not only align with your business goals but also deliver an
+              exceptional user experience to your target audience.
+            </p>
+            <a href="#">learn more</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--PORTFOLIO-->
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="images/work-1.png" />
+            <div class="layer">
+              <h3>Social Media App (Coming Soon)</h3>
+              <p>
+                The app connects you to the talented people around the world.
+                Download it from PlayStore.
+              </p>
+              <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/work-2.png" />
+            <div class="layer">
+              <h3>Music App (Coming Soon)</h3>
+              <p>
+                The app connects you to the talented people around the world.
+                Download it from PlayStore.
+              </p>
+              <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/work-3.png" />
+            <div class="layer">
+              <h3>Online Shopping App (Coming Soon)</h3>
+              <p>
+                The app connects you to the talented people around the world.
+                Download it from PlayStore.
+              </p>
+              <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+          </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+      </div>
+    </div>
+
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script>
+  </body>
+</html>
